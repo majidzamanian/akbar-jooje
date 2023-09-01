@@ -1,0 +1,187 @@
+body{
+    font-family: 'Noto Naskh Arabic';
+    font-size: 16px;
+    background-color: #61122f;
+}
+
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url('../Instagram_logo_2016.svg') no-repeat ;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    
+}
+
+#main-image{
+    width: 100%;
+}
+
+
+.navbar-brand{
+    padding-top: 25px;
+}
+
+
+
+.navbar-brand h1{
+    font-family: 'arial',sans-serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+    text-decoration: none;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+}
+
+.navbar-brand p{
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+
+.offcanvas-body{
+    text-align: center;
+}
+
+.phoneID a span{
+    color: white;
+    padding-bottom: 0;
+}
+
+@media (min-width: 991px) {
+    .main-photo{
+        margin: 170px 50px 0px ;
+        border: 2px solid black;
+        border-radius: 8px;
+
+    }
+}
+
+
+h5{
+    text-align: center;
+}
+
+.offcanvas-header{
+    display: block;
+}
+
+
+
+@media (min-width: 1400px) {
+    .main-photo{
+        margin: 200px 50px 0px ;
+        border: 2px solid black;
+        border-radius: 8px;
+
+    }
+}
+
+
+/* Media query for smaller screens (phones) */
+@media (max-width: 991px) {
+    #callButton {
+        background-color: #f6b319; /* Change color for phones */
+        display:block;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #61122f;
+        text-decoration: solid brown;
+        font-size: 24px;
+        border-radius: 8px;
+        border: 2px solid white;
+
+
+    }
+    #call  {
+        width: auto;
+        margin: 170px 60px 20px 60px;
+
+    }
+
+    .main-photo{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 8px;
+    }
+   
+}
+
+
+
+#menue-title, #special-title, #map-title{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid#3f0c1f;
+    overflow: hidden;
+
+}
+
+#menue-title:hover, #special-title:hover, #map-title:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#home-titles{
+    margin: 15px 40px 20px 40px;
+
+    border-radius: 8px;
+
+}
+
+.content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+    text-align: center;
+  }
+
+#menue-title, #special-title, #map-title{
+    height: 250px;
+    width: 100%;
+    margin-bottom:15 px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+}
+
+#menue-title:hover, #special-title:hover, #map-title{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+.panel-footer{
+    margin-top: 100px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: white;
+}
